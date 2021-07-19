@@ -30,7 +30,8 @@ set(SOCI_BACKENDS_DB_DEPENDENCIES
   PostgreSQL
   SQLite3
   Firebird
-  DB2)
+  DB2
+  Hs2client)
 
 set(SOCI_ALL_DEPENDENCIES
   ${SOCI_CORE_DEPENDENCIES}

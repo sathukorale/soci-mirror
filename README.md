@@ -53,6 +53,7 @@ Backend specific client libraries for:
 * Oracle
 * PostgreSQL
 * SQLite 3
+* [Hs2client] (https://github.com/cloudera/hs2client)
 
 See documentation at [soci.sourceforge.net](http://soci.sourceforge.net) for details
 

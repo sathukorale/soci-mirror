@@ -39,6 +39,7 @@ foreach(dir ${backend_dirs})
 	if(IS_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/${dir})
 		if(EXISTS ${CMAKE_CURRENT_SOURCE_DIR}/${dir}/CMakeLists.txt)
 			string(TOUPPER ${dir} dirUP)
+
 			if(${dirUP}_FOUND AND WITH_${dirUP})
 				add_subdirectory(${dir})
 				set(SOCI_HAVE_${dirUP} ON CACHE INTERNAL "${dirUP} backend")
